@@ -94,7 +94,7 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 - Extract key features from **`matches.csv`** dataset.
 - Extract crucial insights from **`deliveries.csv`** dataset.
 
-##### 4️⃣ **Winner Prediction Model**: Develop a **prediction model** based on the above analyses to predict the **winner of IPL matches**.
+##### 4️⃣ **Winner Prediction Model**: Develop a **prediction model** based on the above analyses to predict the **winner of 2025 IPL.**.
 
 ---
 
