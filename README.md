@@ -182,7 +182,7 @@ Participants will be evaluated based on:
 #### <div align="right">🎯 Marks: 60</div> 
 
 #### 📌 Problem Statement:
-With the exponential rise in scientific publications, researchers struggle to keep up with the vast volume of literature. The challenge lies in creating a **state-of-the-art model that accurately summarizes research articles** while preserving key insights and readability, enabling researchers to assimilate information swiftly. Scientific papers differ significantly from general text due to their **structured frmat (Introduction, Methods, Results, Discussion, etc.), citation dependencies, and inclusion of figure/tables**. Summarizing such documents requires handling **domain-specific challenges**, maintaining semantic coherence, and ensuring **faithful knowledge retention**. This competition challenges participants to develop a **framework for summarizing research artciels**, leveraging **state-of-the-art approaches**, preferably **Large Language Models (LLMs)** with an aim to develop a **hybrid summarization model** that surpasses existing benchmark models while maintaining computational efficiency. 
+With the exponential rise in scientific publications, researchers struggle to keep up with the vast volume of literature. The challenge lies in creating a **state-of-the-art model that accurately summarizes research articles** while preserving key insights and readability, enabling researchers to assimilate information swiftly. Scientific papers differ significantly from general text due to their **structured frmat (Introduction, Methods, Results, Discussion, etc.), citation dependencies, and inclusion of figure/tables**. Summarizing such documents requires handling **domain-specific challenges**, maintaining semantic coherence, and ensuring **faithful knowledge retention**. This competition challenges participants to develop a **framework for summarizing research artciels**, leveraging **state-of-the-art approaches**, preferably by using **Large Language Models (LLMs)** with an aim to develop a **hybrid summarization model** that surpasses existing benchmark models while maintaining computational efficiency. 
 
 Participants must develop an **extractive-abstractive hybrid model** that:
 - Summarized single and multi-document research papers
@@ -215,8 +215,8 @@ The **`CompScholar.csv`** file consists of the **metadata informations** instead
 -	**'Paper Type'**: This particular field states the type of paper with values like Text Summarization, Natural Language Processing, Text Generation, Medical Data, Neural Network, etc.
 -	**'Summary'**: Manually annotated summary of that particular research article
 -	**'Topic'**: The topic attribute specifies the major domain under which that partcular paper falls, like Natural Language Processing, Medical Data Analysis and Deep Learning and Machine Learning
--	**'OCR'**: Additional text information extracted from the diagrams, tables, images, output graphs using Optical Character Recognition (OCR)
--	**'labels'**: Each of the paper has been assigned one label based on the content and domains in which it falls, **'Deep Learning and Machine', 'Medical Data Analysis', 'Object Recognition'** and **Sentiment Analysis**
+-	**'OCR'**: Additional text information extracted from the diagrams, tables, images, output graphs using Optical Character Recognition (OCR) **[May not be needed in the summarization task]**
+-	**'labels'**: Each of the paper has been assigned one label based on the content and domains in which it falls, **'Deep Learning and Machine', 'Medical Data Analysis', 'Object Recognition'** and **Sentiment Analysis**. **[May not be needed in the summarization task]**
 
 #### 📊 Data Field Description of 'arXiv' file:
 
@@ -367,7 +367,7 @@ We'll be checking all submissions for plagiarism to ensure everything's original
 ## **Dataset Credits**:
 
 ### **Problem Statement 1:**  
-[CrickSheet](https://cricsheet.org/)
+[CricSheet](https://cricsheet.org/)
 
 ### **Problem Statement 2:**  
 - U.S. National Library of Medicine  
