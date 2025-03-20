@@ -192,7 +192,7 @@ Participants must develop an **extractive-abstractive hybrid model** that:
 Participants will be provided with **multiple research article datasets**, including a proprietary dataset from IIEST Shibpur, **CompScholar**, and two publicly available benchmark datasets (**PubMed and arXiv**). The task is to develop an efficient **text-based abstractive summarization model** that generates **concise, coherent, and relevant summaries** while outperforming existing models. Participants must also compare their models against **state-of-the-art summarization frameworks** (e.g., SummRuNNer, Pointer-Generator, Discourse Aware, BERT, T5, BART, PEGASUS, GPT-4, Longformer, and LED), providing a **detailed performance analysis with citations**.  
 
 #### 📂 Dataset Link:
-1. **CompScholar Dataset** (Private dataset—link to be provided during the competition).  
+1. **CompScholar Dataset** ([Dataset Link](https://github.com/jayantapaul/BrainDead-2K25/blob/1dafe7a5b42a33e0afd5dfa183780ca32c036dad/Brain%20Dead%20CompScholar%20Dataset.csv)).  
 2. **PubMed Dataset** ([Dataset Link](https://huggingface.co/datasets/ncbi/pubmed))—contains millions of biomedical research articles with structured abstracts.  
 3. **arXiv Dataset** ([Dataset Link](https://huggingface.co/datasets/arxiv-community/arxiv_dataset))—includes structured documents across multiple scientific disciplines.  
 
