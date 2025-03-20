@@ -29,7 +29,8 @@ We are excited to present **two compelling problem statements** for this flagshi
 
 ### 🔔 **Important Notes:**
 - **Both problem statements are compulsory.**
-- You can submit whichever problem you solve, but **your score for an unsolved problem will be 0**.
+- You can submit whichever problem you solve, but **your score for a partially solved problem will be given based on the report and result**.
+- For any unattempted problem, **your score for that question will be 0**.
 - **If you submit the report but not the iPython notebook, your score for that problem will be 0** *(Aryabhatta to be blamed! 🙃)*.
 
 Long story short, **create a single concise report covering both problem statements** (if you have solved both) and **upload the corresponding code to GitHub**.
