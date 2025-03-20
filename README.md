@@ -25,7 +25,7 @@ We are excited to present **two compelling problem statements** for this flagshi
 
 - For Problem Statement 1 & 2, prepare a **concise report** in **.pptx** or **.pdf** format.
 - Append your **Problem Statement 2 report** to the **Problem Statement 1 report**.
-- Upload your **iPython notebook (.ipynb)** to **GitHub** and share your **public repository link via UnStop**.
+- Upload your **`iPython notebook (.ipynb)`** to **GitHub** and share your **public repository link via UnStop**.
 
 ### 🔔 **Important Notes:**
 - **Both problem statements are compulsory.**
