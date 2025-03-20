@@ -107,7 +107,7 @@ Participants may use the following tools:
 - **Jupyter Notebook/Google Colab with Matplotlib**
 
 #### 📂 Dataset Link:
-The dataset consists of two separate CSV files: **matches** and **deliveries**. These files contain the information of each match summary and ball by ball details, respectively. [BrainDead IPL Complete Dataset (2008-2024)](#) *(Insert link here)*
+The dataset consists of two separate CSV files: **matches** and **deliveries**. These files contain the information of each match summary and ball by ball details, respectively. [BrainDead IPL Complete Dataset (2008-2024)](https://github.com/jayantapaul/BrainDead-2K25/blob/77aa9fe4887b4a937358ea13156f90e24fbcfc89/Brain%20Dead%20IPL%20Dataset.zip)
 
 #### 📊 Data Field Description of 'matches' file:
 
