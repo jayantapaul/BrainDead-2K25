@@ -108,7 +108,7 @@ Participants may use the following tools:
 #### 📂 Dataset Link:
 The dataset consists of two separate CSV files: **matches** and **deliveries**. These files contain the information of each match summary and ball by ball details, respectively. [BrainDead IPL Complete Dataset (2008-2024)](#) *(Insert link here)*
 
-#### 📊 Metadata Description of 'matches' file:
+#### 📊 Data Field Description of 'matches' file:
 
 The **`matches.csv`** file consists of the match informations of **1095 face-offs** amongst the teams in all the IPL seasons in the last 17 years! 
 -	**'id'**: Unique identifier for each match.
@@ -129,7 +129,7 @@ The **`matches.csv`** file consists of the match informations of **1095 face-off
 -	**'umpire1'**: Name of the first on-field umpire.
 -	**'umpire2'**: Name of the second on-field umpire.
 
-#### 📊 Metadata Description of 'deliveries' file:
+#### 📊 Data Field Description of 'deliveries' file:
 
 The **`deliveries.csv`** file consists of ball by ball informations of all the 1095 face-offs. The dataset consists of **14,26,312 delivery entries** and **17 attributes**.
 -	**'match_id'**: Unique identifier for each match.
