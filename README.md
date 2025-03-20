@@ -367,9 +367,9 @@ We'll be checking all submissions for plagiarism to ensure everything's original
 ## **Dataset Credits**:
 
 ### **Problem Statement 1:**  
-[CricSheet](https://cricsheet.org/)
+[CricSheet](https://cricsheet.org/) (IPL Dataset)
 
 ### **Problem Statement 2:**  
-- U.S. National Library of Medicine  
-- Clement, C.B., Bierbaum, M., O'Keeffe, K.P. and Alemi, A.A., 2019. On the use of arxiv as a dataset. arXiv preprint arXiv:1905.00075.
+- U.S. National Library of Medicine (PubMed Dataset) 
+- Clement, C.B., Bierbaum, M., O'Keeffe, K.P. and Alemi, A.A., 2019. On the use of arxiv as a dataset. arXiv preprint arXiv:1905.00075. (arXiv Dataset)
 
