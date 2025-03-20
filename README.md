@@ -339,7 +339,7 @@ Everyone should use the mentioned environments for coding:
 - **Submission via Unstop**.  
 - If there is an issue, contact us at [revelationiiest@gmail.com](mailto:revelationiiest@gmail.com).  
 - **Join WhatsApp Group**: [Click here](https://chat.whatsapp.com/EHiJ00VTMjG5zs2xjdlZuQ)
-- A complete report of the methodology employed in your work and the source code of your best pipelines for each selected dataset. The report should be concise. This report might include references, tables, figures, and results. Everyone should submit their code between **21/03/2025 at 10:10 AM to 23/03/2025 at 10:10 AM**.
+- A complete report of the methodology employed in your work and the source code of your best pipelines for each selected dataset. The report should be concise. This report might include references, tables, figures, and results. Everyone should submit their code between **21/03/2025 at 10:00 AM to 23/03/2025 at 10:00 AM**.
 
 #### **Submission Format**:
 1. **Table of Contents**  
