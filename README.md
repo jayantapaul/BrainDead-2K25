@@ -40,8 +40,7 @@ Long story short, **create a single concise report covering both problem stateme
 
 # Problem Statement 1: Statistics is All You Need: IPL Data Analysis and 2025 Winner Prediction – The Game Behind the Game!
 
-
-#### 🎯 Marks: 40
+#### <div align="right">🎯 Marks: 40</div>
 
 #### 📌 Problem Statement:
 Cricket is the most popular sport in India. There are various formats of this game and the most loved one is the Indian Premier League (IPL). This professional Twenty20 cricket league in India gets contested during March or April and May of every year by eight teams representing ten different cities on India. The league was founded by the Board of Control for Cricket in India (BCCI) in 2008. The IPL has an exclusive window in ICC Future Tours Programme. It is the most-attended cricket league in the world. Currently, it’s the 18th season of IPL.
@@ -95,8 +94,7 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 - Extract key features from **`matches.csv`** dataset.
 - Extract crucial insights from **`deliveries.csv`** dataset.
 
-##### 4️⃣ **Winner Prediction Model**:
-- **Develop a prediction model** based on the above analyses to predict the **winner of IPL matches**.
+##### 4️⃣ **Winner Prediction Model**: Develop a **prediction model** based on the above analyses to predict the **winner of IPL matches**.
 
 ---
 
@@ -166,7 +164,7 @@ The **`deliveries.csv`** file consists of ball by ball informations of all the 1
 - The report should be **concise**, including **references, tables, figures, and results**
 - **Clear methodology** for prediction
 - If **Excel** is used, mention the **Excel formulas applied**
-- **Source code** for predicting rice production for the next **5 years**
+- **Source code** for **Exploratory Data Analysis (EDA)** and **2025 IPL Winner** prediction.
 
 
 #### 📊 Marking Criteria:
@@ -181,12 +179,12 @@ Participants will be evaluated based on:
 ---
 
 # **Problem Statement 2: Research Article Summarization Using Advanced NLP Techniques**  
-#### 🎯 Marks: 60 
+#### <div align="right">🎯 Marks: 60</div> 
 
 #### 📌 Problem Statement:
-With the exponential rise in scientific publications, researchers struggle to keep up with the vast volume of literature. The challenge lies in creating a **state-of-the-art model that accurately summarizes research articles** while preserving key insights and readability, enabling researchers to assimilate information swiftly. Scientific papers differ significantly from general text due to their **structured frmat (Introduction, Methods, Results, Discussion, etc.), citation dependencies, and inclusion of figure/tables**. Summarizing such documents requires handling **domain-specific challenges**, maintaining semantic coherence, and ensuring **faithful knowledge retention**. This competition challenges participants to develop a **novel framework for summarizing research artciels**, leveraging **state-of-the-art approaches**, including **Large Language Models (LLMs)** with an aim to develop a **hybrid summarization model** that surpasses existing benchmark models while maintaining computational efficiency. 
+With the exponential rise in scientific publications, researchers struggle to keep up with the vast volume of literature. The challenge lies in creating a **state-of-the-art model that accurately summarizes research articles** while preserving key insights and readability, enabling researchers to assimilate information swiftly. Scientific papers differ significantly from general text due to their **structured frmat (Introduction, Methods, Results, Discussion, etc.), citation dependencies, and inclusion of figure/tables**. Summarizing such documents requires handling **domain-specific challenges**, maintaining semantic coherence, and ensuring **faithful knowledge retention**. This competition challenges participants to develop a **framework for summarizing research artciels**, leveraging **state-of-the-art approaches**, preferably **Large Language Models (LLMs)** with an aim to develop a **hybrid summarization model** that surpasses existing benchmark models while maintaining computational efficiency. 
 
-Participants must develop an extractive-abstractive hybrid model that:
+Participants must develop an **extractive-abstractive hybrid model** that:
 - Summarized single and multi-document research papers
 - Handles long-document summarization constraints while maintaining efficiency
 
@@ -203,7 +201,102 @@ The datasets provided for this competition contain **full-text research articles
 The datasets contain the following:  
 - **Research Articles**: Text files containing full-length papers and abstracts.  
 - **Metadata**: Titles, keywords, citations, author information, and journal sources.  
-- **Summarization Labels**: Ground truth summaries for evaluation and model training.  
+- **Summarization Labels**: Ground truth summaries for evaluation and model training.
+
+#### 📊 Metadata Description of 'CompScholar' file:
+
+The **`CompScholar.csv`** file consists of the **metadata informations** instead of full-length article text for **370 research articles from a variety of domains**. 
+-	**'Paper Id'**: Unique identifier for each research paper
+-	**'Paper Title'**: The full title of the paper
+-	**'Key Word'**: Keyword of the paper
+-	**'Abstract'**: The full-length abstract from the research article
+-	**'Conclusion'**: The conclusion section from the research article
+-	**'Document'**: Combined previous metadata (Paper Title, Key Word, Abstract, Conclusion) and kept in the 'Document' attribute
+-	**'Paper Type'**: This particular field states the type of paper with values like Text Summarization, Natural Language Processing, Text Generation, Medical Data, Neural Network, etc.
+-	**'Summary'**: Manually annotated summary of that particular research article
+-	**'Topic'**: The topic attribute specifies the major domain under which that partcular paper falls, like Natural Language Processing, Medical Data Analysis and Deep Learning and Machine Learning
+-	**'OCR'**: Additional text information extracted from the diagrams, tables, images, output graphs using Optical Character Recognition (OCR)
+-	**'labels'**: Each of the paper has been assigned one label based on the content and domains in which it falls, **'Deep Learning and Machine', 'Medical Data Analysis', 'Object Recognition'** and **Sentiment Analysis**
+
+#### 📊 Data Field Description of 'arXiv' file:
+
+The **arXiv dataset** consists of **1.7 million arXiv articles** for applications like trend analysis, paper recommender engines, category prediction, co-citation networks, knowledge graph construction and semantic search interfaces.
+```json
+{
+"id": "0704.0002",
+"submitter": "Louis Theran",
+"authors": "Ileana Streinu and Louis Theran",
+"title": "Sparsity-certifying Graph Decompositions",
+"comments": "To appear in Graphs and Combinatorics",
+"journal-ref": "None",
+"doi": "None",
+"report-no": "None",
+"categories": "math.CO cs.CG",
+"license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+"abstract": "We describe a new algorithm, the $(k,\\ell)$-pebble game with colors, and use\nit obtain a characterization of the family of $(k,\\ell)$-sparse graphs and\nalgorithmic solutions to a family of problems concerning tree decompositions of\ngraphs. Special instances of sparse graphs appear in rigidity theory and have\nreceived increased attention in recent years. In particular, our colored\npebbles generalize and strengthen the previous results of Lee and Streinu and\ngive a new proof of the Tutte-Nash-Williams characterization of arboricity. We\nalso present a new decomposition that certifies sparsity based on the\n$(k,\\ell)$-pebble game with colors. Our work also exposes connections between\npebble game algorithms and previous sparse graph algorithms by Gabow, Gabow and\nWestermann and Hendrickson.\n",
+"update_date": "2008-12-13"
+}
+```
+- **'id'**: ArXiv ID (can be used to access the paper)
+- **'submitter'**: Who submitted the paper
+- **'authors'**: Authors of the paper
+- **'title'**: Title of the paper
+- **'comments'**: Additional info, such as number of pages and figures
+- **'journal-ref'**: Information about the journal the paper was published in
+- **'doi'**: Digital Object Identifier
+- **'report-no'**: Report Number
+- **'abstract'**: The abstract of the paper
+- **'categories'**: Categories / tags in the ArXiv system
+
+#### 📊 Data Field Description of 'PubMed' file:
+
+**PubMed** comprises more than **36 million citations** for biomedical literature from **MEDLINE**, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.
+
+```json
+{
+    "MedlineCitation": {
+        "PMID": 0,
+        "DateCompleted": {"Year": 0, "Month": 0, "Day": 0},
+        "NumberOfReferences": 0,
+        "DateRevised": {"Year": 0, "Month": 0, "Day": 0},
+        "Article": {
+            "Abstract": {"AbstractText": "Some abstract (can be missing)" },
+            "ArticleTitle": "Article title",
+            "AuthorList": {"Author": [
+                {"FirstName": "John", "ForeName": "Doe", "Initials": "JD", "CollectiveName": ""}
+                {"CollectiveName": "The Manhattan Project", "FirstName": "", "ForeName": "", "Initials": ""}
+            ]},
+            "Language": "en",
+            "GrantList": {
+                "Grant": [],
+            },
+            "PublicationTypeList": {"PublicationType": []},
+        },
+        "MedlineJournalInfo": {"Country": "France"},
+        "ChemicalList": {"Chemical": [{
+            "RegistryNumber": "XX",
+            "NameOfSubstance": "Methanol"
+        }]},
+        "CitationSubset": "AIM",
+        "MeshHeadingList": {
+            "MeshHeading": [],
+        },
+    },
+    "PubmedData": {
+        "ArticleIdList": {"ArticleId": "10.1002/bjs.1800650203"},
+        "PublicationStatus": "ppublish",
+        "History": {"PubMedPubDate": [{"Year": 0, "Month": 0, "Day": 0}]},
+        "ReferenceList": [{"Citation": "Somejournal", "CitationId": 01}],
+    },
+}
+```
+
+Main Fields will probably interest the participants are:
+- "MedlineCitation" > "Article" > "AuthorList" > "Author"
+- "MedlineCitation" > "Article" > "Abstract" > "AbstractText"
+- "MedlineCitation" > "Article" > "Article Title"
+- "MedlineCitation" > "ChemicalList" > "Chemical"
+- "MedlineCitation" > "NumberOfReferences"
 
 The competition will focus on **extractive-abstractive summarization** techniques. Participants will explore **LLM-based** models to generate meaningful summaries that maintain contextual relevance.  
 
@@ -238,7 +331,7 @@ Everyone should use the mentioned environments for coding:
 - **Google Colab or Local System**  
 - **Jupyter Notebook**  
 - **TensorFlow, Keras, Python, PyTorch**  
-- Your notebook name should follow this format: **(team_name_brain_dead_2k24.ipynb)**  
+- Your notebook name should follow this format: **`team_name_brain_dead_2k25.ipynb`**
 
 ---
 
@@ -246,7 +339,7 @@ Everyone should use the mentioned environments for coding:
 - **Submission via Unstop**.  
 - If there is an issue, contact us at [revelationiiest@gmail.com](mailto:revelationiiest@gmail.com).  
 - **Join WhatsApp Group**: [Click here](https://chat.whatsapp.com/EHiJ00VTMjG5zs2xjdlZuQ)
-- A complete report of the methodology employed in your work and the source code of your best pipelines for each selected dataset. The report should be concise. This report might include references, tables, figures, and results. Everyone should submit their code between 04/04/2024 at 10 AM to 07/04/2024 at 10:00 AM.  
+- A complete report of the methodology employed in your work and the source code of your best pipelines for each selected dataset. The report should be concise. This report might include references, tables, figures, and results. Everyone should submit their code between 04/04/2024 at 10 AM to 07/04/2024 at 10:00 AM.  **<-- Change the date and time**
 
 #### **Submission Format**:
 1. **Table of Contents**  
