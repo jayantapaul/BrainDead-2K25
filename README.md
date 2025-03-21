@@ -158,8 +158,11 @@ The **`deliveries.csv`** file consists of ball by ball informations of all the 1
 - **Sunrisers Hyderabad** replaced the **Deccan Chargers** in 2012 and debuted in 2013.
 
 #### Important Formulae:
+
 Batting Average = Total Runs Scored / Number of times out
+
 Batting Strike Rate = (Total Runs / Total Balls Faced) * 100
+
 Bowling Economy Rate = Total Runs Conceded / Total Overs Bowled
 
 ---
