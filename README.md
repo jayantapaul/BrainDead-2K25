@@ -65,7 +65,7 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 - **Plot Highest and Lowest Scores**
 - **Plot Total 4s and 6s**
 - **Plot Average Powerplay and Death Overs Score**
-- **Run per over of each team**
+- **Average run per over of each team**
 - **Powerplay Analysis**
 
 ###### 👤 **Player Performance:**
