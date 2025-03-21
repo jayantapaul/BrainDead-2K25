@@ -69,7 +69,6 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 - **Powerplay Analysis**
 
 ###### 👤 **Player Performance:**
-- **Plot top run-scorers**
 - **Get the top 20 run-scorers**
 - **Plot Batting Average vs Batting Strike Rate for the top 20 run-scorers**
 - **Find Highest Average and Strike Rate for players with >50 matches**
