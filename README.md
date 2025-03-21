@@ -61,11 +61,11 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 
 ###### 🏏 **Team Performance:**
 - **Plot Matches Played and Winning Percentages**
-- **Plot Run Rate and Economy Rate**
+- **Plot Run Rate and Economy Rate (as a bowling side)**
 - **Plot Highest and Lowest Scores**
 - **Plot Total 4s and 6s**
 - **Plot Average Powerplay and Death Overs Score**
-- **Average run per over of each team**
+- **Average run per over of each team (as a batting side)**
 - **Powerplay Analysis**
 
 ###### 👤 **Player Performance:**
