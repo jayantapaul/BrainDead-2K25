@@ -75,7 +75,7 @@ Perform the following analyses based on the **IPL 2008-2024 Dataset**:
 - **Plot top wicket-takers**
 - **Plot top highest individual scores**
 - **Man of the Match Count Analysis**
-- **Plot Batting Average vs Bowling Economy Rate with Clusters (K-Means Clustering)**
+- **Use K-Means Clustering to plot Batting Average vs Bowling Economy Rate for number of clusters = 3 (Batsman, Bowler, All Rounder)**
 - **Identify Top 10 Batsmen in each run category**:
   - **Top 6’s scorer**
   - **Top 4’s scorer**
@@ -156,6 +156,11 @@ The **`deliveries.csv`** file consists of ball by ball informations of all the 1
 - The **'super over'** situation in case of a tie should not be considered in any evaluation. Those are just for tie-breaking purposes.
 - In December 2018, the team changed its name from the **Delhi Daredevils** to the **Delhi Capitals**.
 - **Sunrisers Hyderabad** replaced the **Deccan Chargers** in 2012 and debuted in 2013.
+
+#### Important Formulae:
+Batting Average = Total Runs Scored / Number of times out
+Batting Strike Rate = (Total Runs / Total Balls Faced) * 100
+Bowling Economy Rate = Total Runs Conceded / Total Overs Bowled
 
 ---
 
