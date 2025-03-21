@@ -322,7 +322,7 @@ Models will be evaluated on:
 3. **Summarization Length and Readability**—Ensuring meaningful information is retained in concise form.  
 4. **Computational Efficiency**—Assessing training time, inference speed, and memory usage.  
 
-**Ranked Model Performance Table**:
+**Ranked Model Performance Table (for CompScholar Dataset)**:
 | Rank | Model | ROUGE-1 | ROUGE-2 | ROUGE-L | BLEU |  
 |------|-------|---------|---------|---------|------|  
 | 1 | PEGASUS | 45.1 | 21.8 | 42.3 | 36.2 |  
