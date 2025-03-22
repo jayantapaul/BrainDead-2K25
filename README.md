@@ -199,7 +199,7 @@ Participants will be provided with **multiple research article datasets**, inclu
 
 #### 📂 Dataset Link:
 1. **CompScholar Dataset** ([Dataset Link](https://github.com/jayantapaul/BrainDead-2K25/blob/1dafe7a5b42a33e0afd5dfa183780ca32c036dad/Brain%20Dead%20CompScholar%20Dataset.csv)).  
-2. **PubMed Dataset** ([Dataset Link](https://huggingface.co/datasets/ncbi/pubmed))—contains millions of biomedical research articles with structured abstracts.  
+2. **PubMed Dataset** ([Dataset Link 1](https://huggingface.co/datasets/ncbi/pubmed)) ([Dataset Link 2](https://huggingface.co/datasets/ccdv/pubmed-summarization))—contains millions of biomedical research articles with structured abstracts.  
 3. **arXiv Dataset** ([Dataset Link](https://huggingface.co/datasets/arxiv-community/arxiv_dataset))—includes structured documents across multiple scientific disciplines.  
 
 #### **Dataset Description**:
@@ -255,7 +255,7 @@ The **arXiv dataset** consists of **1.7 million arXiv articles** for application
 - **'abstract'**: The abstract of the paper
 - **'categories'**: Categories / tags in the ArXiv system
 
-#### 📊 Data Field Description of 'PubMed' file:
+#### 📊 Data Field Description of 'PubMed' file (Dataset 1):
 
 **PubMed** comprises more than **36 million citations** for biomedical literature from **MEDLINE**, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.
 
@@ -304,6 +304,20 @@ Main Fields will probably interest the participants are:
 - "MedlineCitation" > "Article" > "Article Title"
 - "MedlineCitation" > "ChemicalList" > "Chemical"
 - "MedlineCitation" > "NumberOfReferences"
+
+#### 📊 Data Field Description of 'PubMed' file ([Dataset 2](https://huggingface.co/datasets/ccdv/pubmed-summarization)):
+
+- **'id'**: paper id
+- **'article'**: a string containing the body of the paper
+- **'abstract'**: a string containing the abstract of the paper
+
+#### 📊 Data Splits of 'PubMed' file ([Dataset 2](https://huggingface.co/datasets/ccdv/pubmed-summarization)):
+
+| Dataset Split | Number of Instances |
+|------|-------|
+| Train | 119,924 |
+| Validation | 6,633 |
+| Test | 6,658 |
 
 The competition will focus on **extractive-abstractive summarization** techniques. Participants will explore **LLM-based** models to generate meaningful summaries that maintain contextual relevance.  
 
